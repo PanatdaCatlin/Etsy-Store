@@ -8,20 +8,10 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    WelcomeComponent,
-    NavbarComponent
-  ],
-  imports: [
-        BrowserModule,
-    FormsModule,
-    HttpModule,
-    routing
-  ],
+  declarations: [AppComponent, WelcomeComponent, NavbarComponent],
+  imports: [BrowserModule, FormsModule, HttpModule, routing],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
