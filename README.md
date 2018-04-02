@@ -6,20 +6,22 @@
 
 ## Description
 
-
-_This is a web app rebuild of Etsy using Angular._
+_This is a web app rebuild of Etsy using Angular. Right now there is't a back end server is build to handle a database. This is a working in process. At this moment the appliation separates it self into components._
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ### Specifications
 
-Let users signup with Facebook or their email
-Users can add/edit/remove items from their shop
-Users can purchase a product (one at a time)
-Users can comment on products
-Users get notified via email when they sell an item
-Users get notified when one of their products receives a comment
-Users can search products
+| User Mock Story |
+|----|
+| Let users signup with Facebook or their email |
+| Users can add/edit/remove items from their shop |
+| Users can purchase a product (one at a time) |
+| Users can comment on products |
+| Users get notified via email when they sell an item |
+| Users get notified when one of their products receives a comment |
+| Users can search products |
+
 
 ## Development server
 
@@ -44,3 +46,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Known Bugs
+
+* No known bugs at this time.
+
+## Support and contact details
+
+If you have any feedback pertaining to this project; such an suggestions and improvements, feel free to contact me via email at panatdainthala@gmail.com. All feedback is welcomed.
+
+## Technologies Used
+
+* _Javascript_
+* _TypeScript_
+* _Node JS_
+* _Angular_
+* _Bootstrap_
+* _CSS_
+
+
+### License
+
+*This software is licensed under the MIT license.*
+
+Copyright (c) 2018 **Panatda Inthala**

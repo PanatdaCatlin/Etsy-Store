@@ -11,10 +11,23 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { UndernavComponent } from './undernav/undernav.component';
+import { TopRowComponent } from './topRow/toprow.component';
+import { CardRowComponent } from './cardRow/cardrow.component';
+
 
 @NgModule({
-  declarations: [AppComponent, WelcomeComponent, NavbarComponent],
+  declarations: [
+    AppComponent,
+    WelcomeComponent,
+    HomeComponent,
+    NavbarComponent,
+    UndernavComponent,
+    TopRowComponent,
+    CardRowComponent
+  ],
   imports: [
     BrowserModule,
     FormsModule,
