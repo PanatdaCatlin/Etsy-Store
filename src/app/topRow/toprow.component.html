@@ -1,20 +1,56 @@
-<div>
-  <div class="container" style="background-color:white;">
-    <div class="row">
-      <div class="col-sm-8">
-          <img src="http://lorempixel.com/400/200">
-      </div>
-      <div class="col-sm-4">
-        <div class='row'>
-          <img src="http://lorempixel.com/200/150">
-        </div>
-        <div class='row'>
-          <img src="http://lorempixel.com/200/50">
-        </div>
+<div class="container top-row" style="background-color:white;">
 
+  <div class="row">
+    <!-- <div class="col-sm-8" style="background-color:saddlebrown">
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+
+
+
+          <div *ngFor="let card of cards" class="carousel-item">
+            <app-card [card]="card"></app-card>
+          </div>
+
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
+ -->
+
+
+    <div class='col-sm-8' style="height:320px">
+      <ngb-carousel *ngIf="cards" [interval]="500000000">
+        <ng-template ngbSlide *ngFor="let card of cards">
+          <img class='top-row-card-image col-sm-8' style='max-height:320px'[src]="card.src" alt="Random first slide">
+          <div class='top-row-card col-sm-4'>
+            <div class="carousel-caption">
+              <h3>{{card.title}}</h3>
+              <p>{{card.sub}}</p>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="col-sm-4">
+      <img class='col-sm-12 p-3' style='border-radius:5px' src="../../assets/img/dogcoller.jpg">
+      <div class='col-sm-12 p-3' style='background-color:#e5bab3; height:65px'>
+        <p style="color:white">Hello my name is</p>
+      </div>
+
+    </div>
   </div>
-
-
 </div>
