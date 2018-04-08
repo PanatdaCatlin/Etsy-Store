@@ -16,6 +16,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { UndernavComponent } from './undernav/undernav.component';
 import { TopRowComponent } from './topRow/toprow.component';
 import { CardRowComponent } from './cardRow/cardrow.component';
+import { CardComponent } from './topRow/card/card.component';
+import { OrangeCardComponent } from './orange-card/orange-card.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { CardRowComponent } from './cardRow/cardrow.component';
     NavbarComponent,
     UndernavComponent,
     TopRowComponent,
-    CardRowComponent
+    CardRowComponent,
+    CardComponent,
+    OrangeCardComponent
   ],
   imports: [
     BrowserModule,

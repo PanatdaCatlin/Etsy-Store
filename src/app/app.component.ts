@@ -33,35 +33,48 @@ export class AppComponent {
       { image: '.././assets/img/second6.jpg', text: 'Bad dog' }
     ];
     this.thirdCards = [
-      { image: 'http://lorempixel.com/100/100/food', text: 'ribber shibs' },
-      { image: 'http://lorempixel.com/100/100/food', text: 'Stoop prolwer' },
-      { image: 'http://lorempixel.com/100/100/food', text: 'Bad dog' }
+      { image: '.././assets/img/third1.jpg', text: 'ribber shibs' },
+      { image: '.././assets/img/third2.jpg', text: 'Stoop prolwer' },
     ];
 
     this.fourthCards = [
       {
-        image: 'http://lorempixel.com/100/100/abstract',
+        image: '.././assets/img/fourth1.jpg',
         text: 'ribber shibs',
         description: 'here lies robber shob',
         reviews: { score: 5, reviews: 100 },
         price: 'US $130'
       },
       {
-        image: 'http://lorempixel.com/100/100/abstract',
+        image: '.././assets/img/fourth2.jpg',
         text: 'Stoop prolwer',
         description: 'here lies robber shob',
         reviews: { score: 5, reviews: 100 },
         price: 'US $130'
       },
       {
-        image: 'http://lorempixel.com/100/100/abstract',
+        image: '.././assets/img/fourth3.jpg',
         text: 'Bad dog',
         description: 'here lies robber shob',
         reviews: { score: 5, reviews: 100 },
         price: 'US $130'
       },
       {
-        image: 'http://lorempixel.com/100/100/abstract',
+        image: '.././assets/img/fourth4.jpg',
+        text: 'biggie rigs',
+        description: 'here lies robber shob',
+        reviews: { score: 5, reviews: 100 },
+        price: 'US $130'
+      },
+            {
+        image: '.././assets/img/fourth5.jpg',
+        text: 'biggie rigs',
+        description: 'here lies robber shob',
+        reviews: { score: 5, reviews: 100 },
+        price: 'US $130'
+      },
+            {
+        image: '.././assets/img/fourth6.jpg',
         text: 'biggie rigs',
         description: 'here lies robber shob',
         reviews: { score: 5, reviews: 100 },
@@ -69,7 +82,7 @@ export class AppComponent {
       }
     ];
     this.fifthCards = [
-      { image: 'http://lorempixel.com/100/100/cats', text: 'ribber shibs' }
+      { image: '.././assets/img/fifth.png', text: 'ribber shibs' }
     ];
      this.sixthCards = [
       {
