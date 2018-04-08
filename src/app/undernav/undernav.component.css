@@ -1,0 +1,9 @@
+.underline-hover:hover{
+  border-bottom: 2px solid #ff6e1a;
+  margin-bottom: 0px;
+}
+.navbar{
+  border-bottom: 1px solid #ced4db;
+  border-top: 1px solid #ced4db;
+  background-color: white;
+}
