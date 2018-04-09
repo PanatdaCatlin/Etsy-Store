@@ -1,0 +1,16 @@
+<h4>Edit product</h4>
+
+<label>New product Title:</label>
+<input [(ngModel)]="selectedProduct.title">
+<br>
+
+<label>New product Src:</label>
+<input [(ngModel)]="selectedProduct.src">
+<br>
+
+<label>New product Description:</label>
+<input [(ngModel)]="selectedProduct.description">
+
+<button (click)="beginUpdatingProduct(selectedProduct)">Update</button>
+<hr>
+<button (click)="beginDeletingProduct(selectedProduct)">Delete</button>
