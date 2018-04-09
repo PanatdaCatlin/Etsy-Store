@@ -2,44 +2,56 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { routing } from './app.routing';
+import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireAuthModule } from 'angularfire2/auth';
-import { environment } from './../environments/environment';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { HomeComponent } from './home/home.component';
+import { routing } from './app.routing';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { AdminComponent } from './admin/admin.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
+import { YellowCardComponent } from './yellow-card/yellow-card.component';
+import { TopRowComponent } from './top-row/top-row.component';
+import { CardComponent } from './top-row/card/card.component';
+import { CardRowComponent } from './card-row/card-row.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { UndernavComponent } from './undernav/undernav.component';
-import { TopRowComponent } from './topRow/toprow.component';
-import { CardRowComponent } from './cardRow/cardrow.component';
-import { CardComponent } from './topRow/card/card.component';
-import { OrangeCardComponent } from './orange-card/orange-card.component';
+import { TextColumnsComponent } from './text-columns/text-columns.component';
+import { MarketplaceComponent } from './marketplace/marketplace.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DynamicCardRowComponent } from './dynamic-card-row/dynamic-card-row.component';
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent,
-    HomeComponent,
+    ProductDetailComponent,
+    AdminComponent,
+    EditProductComponent,
+    YellowCardComponent,
+    TopRowComponent,
+    CardComponent,
+    CardRowComponent,
     NavbarComponent,
     UndernavComponent,
-    TopRowComponent,
-    CardRowComponent,
-    CardComponent,
-    OrangeCardComponent
+    TextColumnsComponent,
+    DynamicCardRowComponent,
+    MarketplaceComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule,
-    AngularFireAuthModule,
     routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
     NgbModule.forRoot()
   ],
   providers: [],

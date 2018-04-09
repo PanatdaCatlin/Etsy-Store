@@ -1,17 +1,21 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { HomeComponent } from './home/home.component';
-
+import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { AdminComponent } from './admin/admin.component';
 
 const appRoutes: Routes = [
   {
-    path: 'welcome',
-    component: WelcomeComponent
+      path: '',
+      component: MarketplaceComponent
+    },
+    {
+    path: 'products/:id',
+    component: ProductDetailComponent
   },
-   {
-    path: '',
-    component: HomeComponent
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 
