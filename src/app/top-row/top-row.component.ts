@@ -3,8 +3,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'top-row',
-  templateUrl: './toprow.component.html',
-  styleUrls: ['./toprow.component.css']
+  templateUrl: './top-row.component.html',
+  styleUrls: ['./top-row.component.css']
 })
 export class TopRowComponent implements OnInit {
   cards = [

@@ -1,5 +1,8 @@
 .top-row {
   height: 320px;
+  position: relative;
+  top: 100px;
+  margin-bottom: 100px;
 }
 
 .top-row-card {
@@ -16,4 +19,11 @@
   max-height: 320px;
   left: 200px;
   position: relative;
+}
+
+.row-image {
+  border-radius: 25px;
+  height: 180px;
+  width: auto;
+  left: 33px;
 }
