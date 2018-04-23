@@ -22,8 +22,15 @@
 }
 
 .row-image {
-  border-radius: 25px;
-  height: 180px;
-  width: auto;
-  left: 33px;
+  border-radius: 5px;
+  height: 230px;
+  width: 560px;
+  left: 0px;
+  top: -7px;
+}
+
+#tex-box {
+  top: -15px;
+  left: 8px;
+  width: 324px;
 }

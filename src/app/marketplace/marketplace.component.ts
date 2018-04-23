@@ -91,25 +91,46 @@ export class MarketplaceComponent implements OnInit {
     ];
     this.sixthCards = [
       {
-        src: "http://lorempixel.com/100/100/abstract",
-        text: "ribber shibs",
-        description: "here lies robber shob",
+        src: ".././assets/img/user1.jpg",
+        text: "Ribber shibs",
+        description: "A well made blouse with lovely tailoring. Definitely planning to come back for a larger order!",
         reviews: { score: 5, reviews: 100 },
-        price: "US $130"
+        comment: "A well made blouse with lovely tailoring. Definitely planning to come back for a larger order!"
       },
       {
-        src: "http://lorempixel.com/100/100/abstract",
+        src: ".././assets/img/user2.jpg",
         text: "Stoop prolwer",
-        description: "here lies robber shob",
+        description: "Nice paper! Quick shipment",
         reviews: { score: 5, reviews: 100 },
-        price: "US $130"
+        comment: "Nice paper! Quick shipment"
       },
       {
-        src: "http://lorempixel.com/100/100/abstract",
+        src: ".././assets/img/user3.jpg",
         text: "Bad dog",
-        description: "here lies robber shob",
+        description: "Lovely bag! Arrived promptly! A++",
         reviews: { score: 5, reviews: 100 },
-        price: "US $130"
+        comment: "Lovely bag! Arrived promptly! A++"
+      },
+            {
+        src: ".././assets/img/user1.jpg",
+        text: "Ribber shibs",
+        description: "A well made blouse with lovely tailoring. Definitely planning to come back for a larger order!",
+        reviews: { score: 5, reviews: 100 },
+        comment: "A well made blouse with lovely tailoring. Definitely planning to come back for a larger order!"
+      },
+      {
+        src: ".././assets/img/user2.jpg",
+        text: "Stoop prolwer",
+        description: "Nice paper! Quick shipment",
+        reviews: { score: 5, reviews: 100 },
+        comment: "Nice paper! Quick shipment"
+      },
+      {
+        src: ".././assets/img/user3.jpg",
+        text: "Bad dog",
+        description: "Lovely bag! Arrived promptly! A++",
+        reviews: { score: 5, reviews: 100 },
+        comment: "Lovely bag! Arrived promptly! A++"
       }
     ];
   }
