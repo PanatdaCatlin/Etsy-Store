@@ -22,6 +22,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Users get notified when one of their products receives a comment |
 | Users can search products |
 
+## Firebase Deployment server
+
+https://esty-store.firebaseapp.com/
 
 ## Development server
 
